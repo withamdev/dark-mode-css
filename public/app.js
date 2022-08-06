@@ -9,7 +9,7 @@ const body = document.body;
 // Apply the cached theme on reload
 
 const theme = localStorage.getItem('theme');
-const isSolar =localStorage.getItem('isSolar');
+const isSolar = localStorage.getItem('isSolar');
 
 if (theme) {
     body.classList.add(theme);
